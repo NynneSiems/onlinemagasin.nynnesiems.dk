@@ -1,0 +1,502 @@
+*{
+padding: 0px;
+margin: 0px;
+border:0px;
+}
+
+/* Fonte */
+h1{
+padding-top: 154px;
+font-size: 250%;
+color:  rgb(28, 28, 28);
+font-family: 'Fraunces', serif;
+}
+
+h2{
+font-weight: 100;
+font-size: 180%;
+font-family: "futura-pt", sans-serif;
+color: rgb(28, 28, 28);
+}
+
+h3{
+font-family: "futura-pt", sans-serif;
+font-weight: 500;
+font-size: 200%;
+padding-top: 50px;
+}
+
+h4{
+font-family: "futura-pt", sans-serif;
+font-weight: 700;
+font-size: 160%;
+padding-top: 20px;
+}
+
+p{
+font-family: "futura-pt", sans-serif;
+font-size: 125%
+}
+
+article p{
+font-family: "futura-pt", sans-serif;
+font-size: 125%;
+padding-top: 10px;
+}
+
+a{
+color: rgb(28, 28, 28);
+text-decoration: none;
+}
+
+                /* header */
+.logo{
+width: 30%;
+padding-left: 42%;
+}
+
+#logonaturelle{
+width: 50%;
+}
+
+#navigation {
+display: flex;
+justify-content: center;
+height: 20px;
+width: 100%;
+}
+
+/* Dropdown Button - https://www.w3schools.com/howto/howto_css_dropdown.asp */
+.dropbtn {
+color: black;
+padding-bottom: 16px;
+padding-top: 16px;
+font-family: "futura-pt", sans-serif;
+font-size: 130%;
+text-decoration: none;
+justify-content: space-around;
+}
+
+/* The container div - skal bruge til at "positon" dropdown contentet */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+min-width: 200px;
+margin-top: 16px;
+}
+
+/* Links inde i dropdown */
+.dropdown-content a {
+color: rgb(28, 28, 28);
+padding: 12px  12px;
+text-decoration: none;
+display: block;
+font-family: "futura-pt", sans-serif;
+font-size: 100%;
+}
+
+/* Farve skift af dropdown links på hover */
+.dropdown-content a:hover {
+background-color: rgb(81, 103, 81);
+color: rgb(255, 255, 255);
+}
+
+/* Vis dropdown menuen med hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropbtn:hover {
+color:rgb(81, 103, 81);
+cursor: pointer;
+}
+
+/* Nav a farver og skrift størrelse*/
+nav a{
+text-decoration: none;
+color: rgb(28, 28, 28);
+background-color:rgb(253, 250, 244);
+padding-bottom: 50px;
+font-weight: 500;
+font-size: 150%;
+padding-left: 20px;
+}
+
+                /* forside content */
+body{
+background-color: rgb(253, 250, 244);
+}
+
+#strand{
+justify-content: center;
+width: 1340px;
+height: 700px;
+padding-left: 50px;
+margin-bottom: 50px;
+padding-right: 50px;
+margin-top: 50px;
+}
+/* forside grums artikel */
+.baggrund1flex{
+background-color: rgb(236, 236, 222);
+display: flex;
+justify-content: space-around;
+padding-left: 50px;
+}
+
+.linje1{
+width: 300px;
+height: 2px;
+background-color:  rgb(28, 28, 28);
+}
+
+.headingboks1 p{
+font-family: "futura-pt", sans-serif;
+font-size: 80%;
+color: rgb(28, 28, 28);
+}
+
+.headingboks1 > a :hover{
+color: rgb(81, 103, 81);
+}
+
+.grumsprodukter1{
+margin-top: 200px;
+width: 300px;
+height: 400px;
+margin-bottom: 120px;
+padding-right: 50px;
+}
+
+/* forside Zero Waste artikel */
+.baggrund2flex{
+background-color: rgb(192, 188, 177);
+display: flex;
+justify-content: space-around;
+}
+
+.headingboks2 h1{
+color: rgb(253, 250, 244);
+padding-top: 154px;
+font-size: 250%;
+font-weight: 550;
+padding-left: 104px;
+}
+
+.headingboks2 h2{
+color: rgb(253, 250, 244);
+font-family: "futura-pt", sans-serif;
+font-size: 178%;
+font-weight: 100;
+margin-right: 50px;
+}
+
+.headingboks2 p{
+font-family: "futura-pt", sans-serif;
+color: rgb(253, 250, 244);
+font-size: 80%;
+}
+
+.headingboks2 > a :hover{
+color: rgb(81, 103, 81);
+}
+
+#høfteq{
+width: 1000px;
+height: 550px;
+padding-bottom: 50px;
+padding-top: 200px;
+padding-left: 50px;
+padding-right: 12px;
+}
+
+.linje2{
+width: 300px;
+height: 2px;
+background-color: rgb(253, 250, 244);
+padding-left: 27px;
+}
+
+/* forside OrganiCupp artikel */
+.baggrund3flex{
+background-color: rgb(230, 227, 227);
+justify-content: space-around;
+display: flex;
+padding-left: 50px;
+}
+
+.headingboks1 > a:hover{
+color:rgb(81, 103, 81);
+}
+
+.linje3{
+width: 650px;
+height: 2px;
+background-color:  rgb(28, 28, 28);
+}
+
+#organicup{
+width: 660px;
+height: 500px;
+margin-top: 200px;
+margin-bottom: 50px;
+margin-right: 50px;
+}
+
+                /*---footer ---*/
+
+.flexfooter{
+color:rgb(28, 28, 28); 
+display: flex;
+justify-content: space-evenly;
+padding-bottom: 50px;
+}
+
+.flexfooter h4{
+font-size: 18px;
+}
+
+.flexfooter p{
+font-size: 14px;
+padding-right: 40px;
+}
+
+/*---footer email---*/
+.footer-email-form{
+color: rgb(28, 28, 28); 
+font-family: "futura-pt", sans-serif;
+justify-content: center;
+margin-left: 90px;
+margin-right: 180px;
+}
+
+#footer-email-btn{
+width: 80px;
+height: 25px;
+background-color: rgb(205, 205, 205);
+font-family: "futura-pt", sans-serif;
+color: rgb(28, 28, 28); 
+font-size: 11px;
+margin-top: 5px;
+}
+
+#footer-email-btn:hover{
+background-color: rgb(81, 103, 81);
+color: rgb(255, 255, 255);
+}
+
+
+                /* grums artikel */
+article{
+justify-content: space-around;
+text-align: center;
+}
+
+.baggrund1grums{
+margin-top: 50px;
+background-color:  rgb(205, 205, 205);
+width: 93%;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.artikellinje1{
+width: 530px;
+height: 2px;
+background-color: rgb(81, 103, 81);
+margin-left: 30.2%;
+}
+
+#grumslogo{
+width: 15%;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+#underoverskrift{
+width: 100%;
+height: 165px;
+}
+
+.baggrund2grums{
+background-color:rgb(236, 236, 222);
+width: 93%;
+padding-top: 50px;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.artikelkort{
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+
+.grumscirkel{
+width: 30%;
+padding-top: 50px;
+margin-bottom: 50px;
+}
+
+.baggrund3grums{
+background-color: rgb(192, 188, 177);
+width: 93%;
+padding-top: 50px;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.grumsprodukter{
+width: 300px;
+height: 300px;
+justify-content: space-around;
+padding-top: 70px;
+}
+
+.artikellinje2{
+width: 700px;
+height: 2px;
+background-color: rgb(81, 103, 81);
+margin-left: 24.3%;
+margin-bottom: 10px;
+}
+
+.kortgrumsfelx{
+display: flex;
+justify-content: space-around;
+margin-right: 80px;
+margin-left: 80px;
+margin-bottom: 30px;
+}
+
+#stjerner{
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+                /* Zero Waste artikel */
+#vindmøller{
+width: 1200px;
+height: 700px;
+margin-top: 50px;
+margin-left: 68px;
+}
+
+.baggrund1zerowaste{
+margin-top: 50px;
+background-color:rgb(236, 236, 222);
+width: 93%;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}   
+
+.baggrund2zerowaste{
+background-color:  rgb(205, 205, 205);
+width: 93%;
+padding-top: 50px;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+#co2cirkel{
+width: 22%;
+padding-top: 50px;
+margin-bottom: 50px;
+padding-left: 70px;
+}
+
+#makeupcirkel{
+width: 22%;
+padding-top: 50px;
+margin-bottom: 50px;
+padding-right: 70px;
+}
+
+.baggrund3zerowaste{
+background-color: rgb(192, 188, 177);
+width: 93%;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.artikellinje3{
+width: 620px;
+height: 2px;
+background-color: rgb(81, 103, 81);
+margin-left: 27%;
+}
+
+.artikellinje4{
+width: 450px;
+height: 2px;
+background-color: rgb(81, 103, 81);
+margin-left: 33.2%;
+}
+
+#mikroplastik{
+width: 300px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+                /* OrganiCup/AllMatters artikel */
+.baggrund1organicup{
+background-color: rgb(192, 188, 177);
+width: 93%;
+margin-top: 50px;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.baggrund2organicup{
+background-color: rgb(236, 236, 222);
+width: 93%;
+padding-top: 50px;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.artikellinje5{
+width: 320px;
+height: 2px;
+background-color: rgb(81, 103, 81);
+margin-left: 38%;
+}
+
+#organicup1{
+width: 300px;
+margin-left: 520px;
+margin-top: 50px;
+padding-bottom: 50px;
+}
+
+.baggrund3organicup{
+background-color:  rgb(205, 205, 205);
+width: 93%;
+padding-top: 50px;
+margin-left: 3.5%;
+padding-bottom: 100px;
+}
+
+.artikellinje6{
+width: 488px;
+height: 2px;
+background-color: rgb(81, 103, 81);
+margin-left: 32%;
+margin-bottom: 20px;
+}
+
+.organicupcirkel{
+width: 300px;
+margin-top: 50px;
+padding-left: 50px;
+padding-right: 50px;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/iri5atd.css">
+
+</head>
+<body>
+    <header>
+    <!--Logo-->
+        <div class="logo">
+            <a href="index.html"> <img id="logonaturelle" src="img/logorigtig.jpeg" alt="logo"></a>
+        </div>
+        
+    <!--Navigationsbar (Dropdown)-->
+        <nav id="navigation">
+
+                <div class="dropdown">
+                <a href="#" class="dropbtn">Beauty</a>
+                    <div class="dropdown-content">
+                    <a href="beauty.html" >Redaktionen tester: grums hudpleje</a>
+                    <a href="#">Redaktionen tester: Miild makeup</a>
+                    <a href="#">Redaktionen tester: Nilens Jord</a>
+                    <a href="#">Redaktionens MUSTHAVES!</a>
+                    <a href="#">De BEDSTE bæredygtige og økologiske makeup- og hudplejemærker</a>
+                    </div>
+                </div>
+            
+                <div class="dropdown">
+                <a href="#" class="dropbtn">Zero Waste</a>
+                    <div class="dropdown-content">
+                    <a href="#">Zero Waste - hvad er det?</a>
+                    <a href="#">Hvad er bæredygtighed?</a>
+                    <a href="zerowaste.html">Er vores kosmetikprodukter skadelige for miljøet?</a>
+                    <a href="#">Plastikfri bade: Sådan gør du!</a>
+                    <a href="#">Gør din el-regning su-venlig med disse bæredygtige vaner!</a>
+                    </div>
+                </div>
+
+
+                <div class="dropdown">
+                <a href="#" class="dropbtn">Bæredygtig på budget</a>
+                    <div class="dropdown-content">
+                    <a href="#">Vælg bæredygtigt uden at ødelægge dit budget</a>
+                    <a href="#">Danske billige og bæredygtige mærker</a>
+                    <a href="bæredygtigpåbudget.html">Viden om: OrganiCup</a>
+                    <a href="#">Viden om: LastSwap</a>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <main>
+    <!--Billede af strand-->
+        <img id="strand" src="img/strand.jpeg" alt="strand">
+
+
+    <!--Artikel om grums hudpleje-->
+        <section>
+            <div class="baggrund1flex">
+                    <div class="headingboks1">
+                        <a href="beauty.html">
+                        <h1>Beauty</h1>
+                        <div class="linje1"></div>
+                        <h2>Redaktionen undersøger: <br> grums hudpleje</h2>
+                        <p>AF NYNNE VORRE SIEMS</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="beauty.html">
+                        <img class="grumsprodukter1" src="img/grumsserum.jpeg" alt="kaffeserum">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="beauty.html">
+                        <img class="grumsprodukter1" src="img/kaffescrub.jpeg" alt="kaffescrub">
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="beauty.html">
+                        <img class="grumsprodukter1" src="img/grumscreme.jpeg" alt="kaffecreme">
+                        </a>
+                    </div>
+            </div>
+        </section>
+
+
+        <!--Artikel om Zero Waste-->
+        <section>
+            <div class="baggrund2flex">
+                    <div>
+                        <a href="zerowaste.html">
+                        <img id="høfteq" src="img/høfteq.jpeg" alt="høfteqstrand">
+                        </a>
+                    </div>
+
+                    <div class="headingboks2">
+                        <a href="zerowaste.html">
+                        <h1>Zero Waste</h1>
+                        <div class="linje2"></div>
+                        <h2>Er vores kosmetikprodukter skadelige for miljøet?</h2>
+                        <p>AF NYNNE VORRE SIEMS</p>
+                        </a>
+                    </div>
+            </div>
+        </section>
+
+        <!--Artikel om OrganiCup-->
+        <section>
+            <div class="baggrund3flex">
+                    <div class="headingboks1">
+                        <a href="bæredygtigpåbudget.html">
+                        <h1>Bæredygtig på budget</h1>
+                        <div class="linje3"></div>
+                        <h2>Viden om: OrganiCup</h2>
+                        <p>AF NYNNE VORRE SIEMS</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="bæredygtigpåbudget.html">
+                        <img id="organicup" src="img/OrganiCup.jpeg" alt="OrganiCup">
+                        </a>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Nyhedsbrev - tilmed dig her button -->
+            <div class="flexfooter">
+                <div class="flex-kontakt">
+                    <h4> Kontakt </h4>
+                    <p>Ved spørgsmål eller kommentare bedes du kontakte os på følgende:</p>
+                    <p> Email: KontaktNaturelle@gmail.dk</p>
+                </div>
+                    
+                <div class="footer-email-form">
+                    <h4> Nyhedsbrev </h4>
+                    <p>Tilmeld dig vores nyhedsbrev og bliv opdateret på bæredygtige produkter</p> 
+                    <input type="submit" value="Tilmeld dig her" id="footer-email-btn">
+                </div>
+        
+                <div class="flex-kontakt">
+                        <h4> Følg Os På</h4>
+                        <p>Instagram: Naturelle</p>
+                        <p>Facebook: Naturelle</p>
+                </div>
+            </div>
+    </footer>   
+</body>
+</html>
